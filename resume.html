@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>履歷 — 張三</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .resume { max-width:720px;margin:2rem auto;background:#fff;padding:2rem;border-radius:8px }
+    .resume h1{margin:0 0 0.5rem}
+    .resume .meta{color:#64748b;margin-bottom:1rem}
+    @media print{ .no-print{display:none} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="resume">
+      <h1>張三 (Your Name)</h1>
+      <div class="meta">前端工程師 • 台北 • you@example.com</div>
+      <h3>摘要</h3>
+      <p>具有前端開發經驗，熟悉 JavaScript、React 與 CSS。</p>
+      <h3>經歷</h3>
+      <ul>
+        <li>2024 - 現在：公司 A，前端工程師</li>
+        <li>2022 - 2024：實習 / 專案經驗</li>
+      </ul>
+      <h3>學歷</h3>
+      <p>某某大學 資訊工程學系</p>
+      <div style="margin-top:1rem">
+        <button class="btn no-print" onclick="window.print()">列印 / 下載 PDF</button>
+        <a class="btn ghost no-print" href="index.html">返回首頁</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

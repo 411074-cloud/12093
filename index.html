@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>個人網站 — 自我介紹</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">姓名 / 張三 (Your Name)</h1>
+      <nav class="nav">
+        <a href="#about">關於我</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">作品</a>
+        <a href="#contact">聯絡</a>
+        <a href="#timeline">時間軸</a>
+        <a href="resume.html">履歷下載</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <img src="images/profile.svg" alt="profile" class="profile">
+          <div>
+            <h2>嗨，我是 <span class="name">張三 (Your Name)</span></h2>
+            <p class="lead">我是一位熱衷於設計與開發的人。專長前端開發與使用者體驗設計，熱愛學習新技術。</p>
+            <p class="meta">地點：台北 • 職稱：前端工程師</p>
+            <div class="cta">
+              <a href="#contact" class="btn">聯絡我</a>
+              <a href="resume.html" class="btn ghost">下載履歷</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h3>關於我</h3>
+      <p>簡短自我介紹：你可以在這裡寫學歷、工作經歷、興趣、目前專注的方向等等。</p>
+    </section>
+
+    <section id="skills" class="section container">
+      <h3>技能</h3>
+      <ul class="skills">
+        <li>HTML / CSS / JavaScript</li>
+        <li>React / Vue</li>
+        <li>後端：Node.js / Python</li>
+        <li>版本控制：Git</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section container">
+      <h3>作品</h3>
+      <div class="projects">
+        <article class="project">
+          <h4>專案範例 1</h4>
+          <p>專案說明或連結。範例：個人作品頁、互動式網站。</p>
+        </article>
+        <article class="project">
+          <h4>專案範例 2</h4>
+          <p>專案說明或連結。範例：API 整合或小工具。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section container">
+      <h3>時間軸</h3>
+      <ol class="timeline">
+        <li>
+          <strong>2024</strong>
+          <div>加入公司 A，擔任前端工程師，負責 UI 與互動開發。</div>
+        </li>
+        <li>
+          <strong>2022</strong>
+          <div>從某某大學畢業，主修資訊工程。</div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="contact" class="section container">
+      <h3>聯絡我</h3>
+      <p>信箱：<a href="mailto:you@example.com">you@example.com</a></p>
+      <form id="contactForm">
+        <label for="name">姓名</label>
+        <input id="name" placeholder="你的姓名" />
+        <label for="email">電子郵件</label>
+        <input id="email" type="email" placeholder="you@example.com" />
+        <label for="msg">簡短訊息</label>
+        <textarea id="msg" rows="4" placeholder="輸入訊息..."></textarea>
+        <button type="submit" class="btn">送出</button>
+      </form>
+      <p class="small">提示：欲自動收到郵件，可使用第三方服務（例如 Formspree）。在 README.md 有設定說明。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© 2026 Your Name</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
